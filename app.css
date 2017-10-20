@@ -6,67 +6,36 @@
 
 body {
   text-align: center;
-  background-image: url("track.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #e1dcd3;
   height:100%;
   min-height: 100vh;
 }
 
 #content {
-  width: 115vh;
+  float:right;
+  width: 80vh;
   display: inline-block;
   border: 1px solid black;
   border-radius: 10px;
   vertical-align: top;
-  background-color: beige;
+  background-image: url("track.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 10px;
   font-family:fantasy;
   font-size: larger;
 }
 
-.synop {
-  text-align: center;
-}
-
-.size {
-  max-width: 95%;
-  max-height: 95%;
-}
-
 .optional_id {
-  background-color: #201714;
-  text-align: left;
-  border-radius: 10px;
-  box-shadow: 2px 2px 1px #444;
-  width: 200px;
-  margin: 0px auto;
-  padding: 10px;
-  color: white;
-  font-size: medium;
+  padding-top: 90vh;
+  text-align: center;
+  color: purple;
+  font-size: large;
   font-family:fantasy;
 }
 
-.header {
-  text-align: center;
-}
-
-.optional_id  p {
-  text-align: left;
-  background-color: #201714;
-  font color: white;
-  font-family: fantasy;
-}
-
-.optional_id  input {
-  margin-top: 5px;
-  width: 100px;
-  margin-left: 40px;
-  text-align: center;
-  border-radius: 12px;
-}
-
 .button {
+  float:center;
   margin-top: 5px;
   width: 100px;
   text-align: center;
