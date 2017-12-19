@@ -4,18 +4,29 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="app.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
-  <div id="content" class="box"></div>
-      <div class="optional_id">
-      <h4 class="header">Track Bin</h4>
-      <button class="button">Select Album</button>
+  <div class="row responsive">
+    <div id="header" class="col 16 s12">
     </div>
+    <div id="trackBin" class="col s6">
+      <h1 id="text">track bin</h1>
+      <button id="chooseTracksButton" class="btn-large">choose tracks</button>
+    </div>
+    <div id="cdList" class="col s6">
+    </div>
+    <div id="footer" class="col 16 s12">© 2017 Tania Roberts
+    </div>
+  </div>
 </body>
-<script type="text/javascript" src="app.js">
-</script>
+
+<script type="text/javascript" src="app.js"></script>
 
 </html>

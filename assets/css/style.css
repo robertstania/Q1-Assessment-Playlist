@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #EEEEEE;
+}
+
+@font-face {
+  font-family: 'avenir';
+  src: url('../fonts/avenir/AvenirNextLTPro-Regular.otf');
+}
+
+
+body{
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#header{
+  background: #676957;
+  height: 60px;
+  padding: 20px;
+}
+
+#footer{
+  background: #676957;
+  text-align: left;
+  bottom: 0;
+  height: 60px;
+  font-family: 'avenir';
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+#trackBin{
+}
+
+#text{
+  margin-top: 60vh;
+  color: #732082;
+  font-family: 'avenir';
+}
+
+#cdList{
+  background-image: url("../images/fadedTrack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#chooseTracksButton{
+  background-color: #353624;
+  border-radius: 5px;
+  font-family: 'avenir';
+  text-transform: none;
+  font-size: large;
+  width: 270px;
+}
