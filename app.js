@@ -12,7 +12,7 @@ $(document).ready(function() {
         var img = $('<img/>');
         let title= $("<h1></h1>");
 
-        img.attr("src",  "/Users/taniaroberts/Documents/Galvanize/Projects/Playlist/playlist/images/" + data.results[j].cover_art);
+        img.attr("src",  "./images/" + data.results[j].cover_art);
         console.log("/Users/taniaroberts/Documents/Galvanize/Projects/Playlist/playlist/images/" + data.results[j].cover_art);
 
         title.text(data.results[j].title);
